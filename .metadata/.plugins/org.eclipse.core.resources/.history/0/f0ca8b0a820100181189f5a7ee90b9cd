@@ -1,0 +1,15 @@
+
+public class BankAccount {
+	private int balance;
+	
+	public void deposit(int i) {
+		balance += i;
+		
+	}
+
+	public Object getBalance() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

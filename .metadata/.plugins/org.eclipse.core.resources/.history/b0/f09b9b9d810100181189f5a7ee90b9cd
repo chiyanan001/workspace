@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class BankAccuontTest {
+
+	@Test
+	public void testDepostis() {
+		BankAccount acc= new BankAccount ();
+		acc.deposit(50);
+		asserrEqual(acc.getBalance(),50);
+	}
+
+}
